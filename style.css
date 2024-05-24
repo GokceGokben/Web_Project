@@ -1,0 +1,163 @@
+#carouselExampleCaptions{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.btn-primary{
+    background-color: transparent;
+    float:left;
+    border-color: #985a73;
+}
+.btn-primary:hover {
+    background-color: black;
+    border-color: #714657;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: black;
+}
+
+
+.btn-group-vertical>.btn, .btn-group>.btn {
+flex: 0 1 auto;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    border-color: #714657;
+
+}
+.coffee {
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  .coffeesparent{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  }
+  .txt{
+    display: flex;
+    justify-content: center;
+  }
+  h1{
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+  }
+  h4{
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:lighter;
+    font-style: normal;
+  }
+  .dropdown-item.active, .dropdown-item:active {
+    background-color: transparent;
+  }
+  header {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.location-hours {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.about-us {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-us h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.about-us p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.member {
+    text-align: center;
+}
+
+.member img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+footer {
+
+    text-align: center;
+    color: #fff;
+}
+header {
+    padding: 20px;
+    text-align: center;
+}
+.nav{
+    gap: 1rem;
+}
+.gradient-background {
+    z-index: 1;
+    background: linear-gradient(-170deg, #f2c3e1, #ede4dc, #e2eff7);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
