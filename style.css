@@ -161,3 +161,26 @@ header {
     margin-right: auto;
     margin-left: auto;
 }
+.coffeesparent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.coffee img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 10vw;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h4 {
+    text-align: center;
+    color: gray;
+}
+
